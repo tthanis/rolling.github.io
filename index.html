@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Buffalo Soliders Quiz</title>
+  <style>
+    .ans {
+      color: #2F4F4F;
+      margin: 20px;
+    }
+
+    .hi2 {
+      color: black;
+      //font-family:verdana;
+      font-size: 115%;
+      font-weight: bold;
+    }
+
+    .hi1 {
+      color: black;
+      //font-family:verdana;
+      font-size: 105%;
+      margin: 10px;
+    }
+
+    .lo1 {
+      color: black;
+      margin: 10px;
+      //margin-right:10%;
+    }
+
+    .center {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+    .centerImg {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 50px;
+    }
+
+    .centerImg2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button1 {
+      background-color: #6B8E23;
+    }
+
+    /* Green */
+    .button2 {
+      background-color: #8B4513;
+    }
+
+    /* Blue */
+  </style>
+</head>
+
+<body>
+
+  <h2>Buffalo Soldiers History Quiz</h2>
+  <p>
+
+  <div id="introPage">
+    <table class="center">
+      <tr>
+        <td>
+          <div class="lo1" id="descript"></div>
+        </td>
+        <td><img src="memorial.jpg" alt="Buffalo Soldiers Memorial" width="400"></td>
+      </tr>
+    </table>
+    <br>
+    <img src="LetsStart.png" alt="Start the Quiz" class="centerImg" width="150" onclick="startQuiz()">
+  </div>
+
+  <div id="questionsPage">
+    <div class="lo1" id="descript"></div>
+    <p>
+    <div class="hi2">
+      Question <span id="qNum"></span>
+    </div>
+    <br>
+    <div>
+      <span id="question"></span>
+      <br>
+      <div class="ans">
+        <span id="answers"></span>
+      </div>
+    </div>
+
+    <button id="showA" class="button button1" onclick="showAnswer()">Show Answer</button>
+    <button id="nextQ" class="button button2" onclick="nextQuestion()">Next Question</button>
+    <br>
+    <div class="hi1" id="correctAnswer"></div>
+    <div id="memorial2">
+      <img src="memorial2.png" alt="Memorial" class="centerImg2" width="450" onclick="playAudio()">
+      <center>The Buffalo Soldier Monument in Fort Leavenworth, Kansas was dedicated on July 25, 1992 by General Colin L. Powell</center>
+    </div>
+
+  </div>
+
+  <script>
+    // Read XML and get XMLdoc object
+    // If browser supports XMLHttpRequest
+    if (window.XMLHttpRequest) { // Create an instance of XMLHttpRequest object.
+      //code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp = new XMLHttpRequest();
+    } else { // code for IE6, IE5
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    // sets and sends the request for calling "node.xml"
+    //xmlhttp.open("GET", "quiz.xml", false);
+    xmlhttp.open("GET", "quiz.xml", false);
+    xmlhttp.send();
+    // sets and returns the content as XML DOM
+    xmlDoc = xmlhttp.responseXML;
+
+    // Get the quiz description for the intro information
+    document.getElementById("descript").innerHTML =
+      xmlDoc.getElementsByTagName("description")[0].childNodes[0].nodeValue;
+
+    // Get the list of questions and question count
+    questionList = xmlDoc.getElementsByTagName("questionDetail");
+    // Question count
+    questionCount = questionList.length;
+    // Get the span object for the answers
+    answersDOM = document.getElementById("answers");
+
+    // Hide the questions page
+    document.getElementById("questionsPage").style.visibility = "hidden";
+
+    // Global vars
+    currentQ = -1;
+    alpha = "abcdefghijk";
+    var audio = new Audio('audio_file.mp3');
+    audioToggle = 1;
+
+    // Function to start the Quiz
+    function startQuiz() {
+      // Clear the intro intro page and make questions page visible
+      document.getElementById("introPage").innerHTML = "";
+      document.getElementById("questionsPage").style.visibility = "visible";
+      document.getElementById("memorial2").style.visibility = "hidden";
+      nextQuestion();
+    }
+
+    function playAudio() {
+      if (audioToggle == 1) {
+        audio.play();
+        audioToggle = 0;
+      } else {
+        audio.pause();
+        audioToggle = 1;
+      }
+    }
+
+    // Iterate through the questions
+    function nextQuestion() {
+      // Increment the question number and clear the answer from previous question
+      currentQ = currentQ + 1;
+      // If this is the last question change the button behavior
+      if (currentQ+1 == questionCount) {
+        document.getElementById("nextQ").style.visibility = "hidden";
+        document.getElementById("memorial2").style.visibility = "visible";
+        document.getElementById("nextQ").innerHTML = "";
+      }
+      document.getElementById("correctAnswer").innerHTML = "";
+      // Show question number
+      document.getElementById("qNum").innerHTML = currentQ + 1
+      // Get question
+      document.getElementById("question").innerHTML =
+        questionList[currentQ].childNodes[1].childNodes[0].nodeValue;
+      // Get the answer choices
+      answerList = questionList[currentQ].children;
+      answerCount = answerList.length - 2; // one child is the question and one is the explanation
+      // answers
+      answerListStr = "";
+      for (i = 0; i < answerCount; i++) {
+        var answerObj = answerList.item(i + 1);
+        answerListStr += alpha[i] + ".  " + answerObj.childNodes[0].nodeValue + "<br>";
+      }
+      //answersDOM = document.getElementById("answers");
+      answersDOM.innerHTML = answerListStr;
+    }
+
+    // Function to show the correct answers
+    function showAnswer() {
+      // Show the correct answer (last object in the list of answers)
+      var correctAnsObj = answerList.item(answerCount + 1);
+      var correctAnsStr = correctAnsObj.childNodes[0].nodeValue;
+      document.getElementById("correctAnswer").innerHTML = correctAnsStr;
+    }
+  </script>
+
+</body>
+
+</html>

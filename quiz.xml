@@ -1,0 +1,329 @@
+<buffaloSoldiers>
+  <quizIntro>
+    <fullName>Buffalo Soldiers History - Test Your Knowledge</fullName>
+    <shortName>Buffalo Soldiers Quiz</shortName>
+    <description>This Buffalo Soldiers Quiz has been designed to both inform and to test your knowledge of the rich history of the Buffalo Soldiers and especially the 9th and 10 Calvary. &lt;p&gt;The Buffalo Soldiers were a group of men in the era
+      immediately following the end of the civil war organized as part of the US Army who set out to protect the American westward expansion. In doing so they fought the Indian Wars with military distinction, helped chart the new land, and broke unjust
+      societal barriers along the way. And as in most eras of significant advancement came with triumphs, hardships and conflict. Beyond the Indian Wars the Buffalo Soldiers took part in many American military excursions of the time continuing to
+      fight the enemy with honor and valor while continuing a struggle that was only started by the ending of the civil war that would prove to be significantly harder to root out and continues today. &lt;p&gt;The history of the Buffalo Soldiers is rich
+      and complex. This short quiz will attempt to highlight just some of the moments along their journey.
+    </description>
+    <version>1.0</version>
+  </quizIntro>
+  //--------------------------------------------------------
+  <questionDetail topic="Formation">
+    <question>
+      Congress established the formation of Black Calvary and Infantry regiments in the Army Reorganization Act of 1866. This act called for the formation of Black regiments to consist of:
+    </question>
+    <answer correct="false">
+      two Calvary and two Infantry
+    </answer>
+    <answer correct="true">
+      two Calvary and four Infantry
+    </answer>
+    <answer correct="false">
+      four Calvary and two Infantry
+    </answer>
+    <answer correct="false">
+      four Calvary but a shortage of available horses forced the reformation of two regiments to Infantry
+    </answer>
+    <explanation>
+      The correct answer is b. &lt;br&gt;The four Infantry regiments were quickly reorganized to two.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Formation">
+    <question>
+      The newly created Calvary and Infantry regiments were comprised of Black enlisted soldiers but lead by White officers. Which is true?
+    </question>
+    <answer correct="false">
+      both commissioned and non-commissioned officers were required to be White
+    </answer>
+    <answer correct="false">
+      no Black commissioned officer ever led these Calvary or Infantry units
+    </answer>
+    <answer correct="false">
+      these regiments marked the first all Black units in the US Army
+    </answer>
+    <answer correct="false">
+      all of the above
+    </answer>
+    <answer correct="true">
+      none of the above
+    </answer>
+    <explanation>
+      The correct answer is e. &lt;br&gt;Non commissioned officers were black and the first black commissioned officer would lead a Buffalo Soldiers unit 11 years after their formation.  These units were the first “peacetime” all black regiments formed, but black units previously existed.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Formation">
+    <question>
+      The name “Buffalo Soldiers” was originally attributed to the 10th Calvary by Native American’s and later was adopted by other Black regiments. While it’s uncertain where the name “Buffalo Soldiers” originated several theories exist. Which does not
+      describe a commonly suggested source?
+    </question>
+    <answer correct="false">
+      the hair on the heads of the solders reminded Plains Indians of Buffalo
+    </answer>
+    <answer correct="false">
+      to combat the harsh winters men of the 10th Calvary would wear massive coats made of buffalo fur
+    </answer>
+    <answer correct="false">
+      the soldiers of the 10th calvary would stand and fight like a cornered Buffalo
+    </answer>
+    <answer correct="true">
+      when riding at full gallop in regiment formation the rushing Cavalry invoked fear “like a stampeding herd of buffalo”
+    </answer>
+    <answer correct="false">
+      all of the above are commonly held origin theories
+    </answer>
+    <explanation>
+      The correct answer is d. &lt;br&gt;While the other theories of the name origin are often mentioned, there is no discussion of a stampeding herd analogy.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Formation">
+    <question>
+      When Congress established the formation of two Calvary and four Infantry Black regiments the 9th and 10th Calvary were created along with the 38th, 39th, 40th and 41st Infantry.  Subsequently the 38th and 41st Infantry regiments were reformed into the 24th Infantry and the 39th and 40th into the 25th.  Each of the resulting four regiments established their own identities including their mottos.  Which single choice is true about the regiment mottos?
+    </question>
+    <answer correct="false">
+      the 9th is “We Can, We Will" and the 24th is “Ready and Forward”
+    </answer>
+    <answer correct="false">
+      the 10th is  “Ready and Forward” and the 25th is “Semper Paratus”
+    </answer>
+    <answer correct="false">
+      the 24th is  “Ready and Forward” and the 25th is “"Onward”
+    </answer>
+    <answer correct="true">
+      the 9th is “We Can, We Will" and the 10th is “Ready and Forward”
+    </answer>
+    <explanation>
+      The correct answer is d. &lt;br&gt;The 24th’s motto is “Semper Paratus” (Always Prepared) and the 25th’s is “Onward”.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Culture">
+    <question>
+      In popular culture, movies can provide awareness to untold or under-told events in history.  Which of these does not tell a story depicting bravery in action of the fighting men associated as Buffalo Soldiers?
+    </question>
+    <answer correct="true">
+      “Glory” with Denzel Washington in a Black regiment culminating in the famed assault on Ft. Wagner
+    </answer>
+    <answer correct="false">
+      “Miracle at St. Anna” the Spike Lee movie tells the story of four Black soldiers who get trapped in a Italian village in Nazi occupied territory
+    </answer>
+    <answer correct="false">
+      “Red Ball Express” chronicles the bravery of the men who ran supplies lines from the Allied breakout at Normandy running nearly 6,000 trucks at it’s peak in a continuous convoy for nearly 3 months
+    </answer>
+    <answer correct="false">
+      “Buffalo Soldiers”  based on true events about the Black Cavalry troop charged with protecting the Western territories following the Civil War
+    </answer>
+    <answer correct="false">
+      all tell a story of bravery of the Buffalo Soldier
+    </answer>
+    <explanation>
+      The correct answer is a. &lt;br&gt;Glory was an account during the Civil War and the assault was carried out by the 54th Massachusetts Infantry Regiment
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Valor">
+    <question>
+      Eighteen Buffalo Soldiers were awarded America’s highest military decoration, the Medal of Honor, for distinguished service in the Indian Wars.  Recognition for the collective service of the Buffalo Soldiers is being proposed in House Resolution 6022 -  “Buffalo Soldiers Congressional Gold Medal Act of 2020”
+    </question>
+    <answer correct="true">
+      true
+    </answer>
+    <answer correct="false">
+      false
+    </answer>
+    <explanation>
+      The correct answer is a.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Valor">
+    <question>
+      The 9th Calvary formally organized in September 1866 in New Orleans.  By March of the next year the 9th was at a strength of 885 enlisted men drawn from southern states, mainly Louisana and Kentucky.  The 10th Calvary organized in September in Fort Leavenworth, Kansas drawing initial enlistments from Missouri, Arkasas and Platte region.  Henry Flipper, from Georgia, became a notable Buffalo Soldier with the 10th Calvary when he:
+    </question>
+    <answer correct="false">
+      led a troop of Buffalo Soldiers on the charge up San Juan Hill in July 1898 in Cuba
+    </answer>
+    <answer correct="false">
+      became the first Black Buffalo Solider commissioned officer after his field promotion for bravery and valor while pursing Geronimo's surrender during the Battle of Salt River, Arizona in 1890.
+    </answer>
+    <answer correct="true">
+      in 1877 became the first Black graduate from the U.S. Military Academy and the first Black commissioned officer to lead in the 10th Cavalry as Second Lieutenant.
+    </answer>
+    <explanation>
+      The correct answer is c.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Dedication">
+    <question>
+      Life in the Army in the late 1800’s and early 1900’s was difficult.  Diseases like cholera would devastate the camps.  Winter in the plains states were especially harsh.  Despite the hardships common army afflictions like alcoholism, court-martial’s and desertion were  dramatically lower among Black soldiers.  That dedication is even more remarkable given Buffalo Soldiers faced additional challenges of:
+    </question>
+    <answer correct="false">
+      racism
+    </answer>
+    <answer correct="false">
+      inequitable pay
+    </answer>
+    <answer correct="false">
+      undervalued contributions and abilities
+    </answer>
+    <answer correct="true">
+      all of the above
+    </answer>
+    <explanation>
+      The correct answer is d.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Contributions">
+    <question>
+      The Buffalo Soldiers secured road and bridges, protected railroad constructions, captured cattle rustlers and thieves, protected settlers, stagecoaches, and wagon trains, and escorted mail.  They made the great expansion west possible and in doing fought with the Cheyenne, Kiowas, Comanches, Cree, Apache and Arapahoe.  During the years of the Indian Wars which is true?
+    </question>
+    <answer correct="false">
+      the 9th primarily operated in the Southwest while the 10th operated primarily in the the Dakotas protecting the Northern Passage from First Nations
+    </answer>
+    <answer correct="false">
+      the 10th operated in the Plains states the Southwest while the 9th operated in Mississippi Delta and Southeast securing the southern route of the Westward Migration
+    </answer>
+    <answer correct="true">
+      both regiments primarily operated in the Plains states and Southwest
+    </answer>
+    <explanation>
+      The correct answer is c. &lt;br&gt;During the years of the Indian Wars the Buffalo Soldiers were largely operating in the Plains states and the Southwest.  They did not operate in the southeast or primarily in the Dakota region.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Contributions">
+    <question>
+      The Buffalo Soldiers played a critical role in the formation of our National Parks.  Following the establishment of Yellowstone in 1872 and Yosemite and Sequoia in 1890, troops from the 9th Cavalry (and 24th Infantry) served in California as some of the first national park rangers.  Buffalo Soldiers provided for both park security and park development.  Which describes their responsibilities and accomplishments?
+    </question>
+    <answer correct="false">
+      defended the parks from poachers and timber thieves, fought wildfires, and resolved hostile conflicts
+    </answer>
+    <answer correct="false">
+      aided in the development of the parks by mapping uncharted areas, constructing roads and trails including the first trail to the top of Mt. Whitney and building an arboretum in Yosemite National Park 
+    </answer>
+    <answer correct="false">
+      helped map and establish a route for settlers bound for California over the Sierra Nevada’s in a low mountain notch that would later become known as the Donner Pass.
+    </answer>
+    <answer correct="false">
+      all of the above
+    </answer>
+    <answer correct="true">
+      a and b
+    </answer>
+    <answer correct="false">
+      a and c
+    </answer>
+    <explanation>
+      The correct answer is e. &lt;br&gt;The Buffalo Soldiers defended the parks as well as did mapping and trail construction.  They were not involved in the establishment of the Donner Pass as that was first used by settlers migrating west in 1844 and named after the ill fated party in 1846.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Contributions">
+    <question>
+      Notable Firsts:  Henry Flipper, a former slave, in 1877 became the first Black graduate from the U.S. Military Academy earning a commission as a second lieutenant and became the first non-White officer to lead Buffalo Soldiers in the 10th Cavalry.  &lt;br&gt;John Hanks Alexander, born to former slaves, was the second back graduate of the US Military Academy in 1887.  In 1889, he temporarily led the 9th Cavalry's B Troop, thus becoming the first Black officer in the Army to hold a command position.  &lt;br&gt;Charles Young, born into slavery, was the third Black graduate from the US Military Academy in 1889 and became the first Black national park superintendent during the summer of 1903 before being reassigned as a troop commander of the 10th Cavalry. &lt;br&gt;This leader became commander of Fort Huachuca,  Arizona, the base of the Tenth Cavalry and he was the first African American to achieve the rank of colonel in the US Army.  Who was he?
+    </question>
+    <answer correct="false">
+      Henry Flipper
+    </answer>
+    <answer correct="false">
+      John Alexander
+    </answer>
+    <answer correct="true">
+      Charles Young
+    </answer>
+    <explanation>
+      The correct answer is c.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Contributions">
+    <question>
+      After seeing significant action and success protecting the Westward Expansion through the Indian Wars the Buffalo Soldiers were called into other actions domestically and globally including Cuba, the Philippines, and Mexico.
+      &lt;br&gt;Cuba - Initiated by the sinking of the battleship Maine in Havana harbor in 1898 an expeditionary force of over 15,000 men, including nearly 3,000 Black troops, went into Cuba.  Troops of the 9th and 10th Cavalry, and the 24th and 25th Infantry, fought heroically on the battlefields of Las Guasimas, El Caney, and San Juan Hill in the Spanish-American war.
+      &lt;br&gt;Philippines - Following the end of the Spanish-American war the US took control of the former Spanish colonies of Puerto Rico, Guam, and the Philippines.  Filipino nationalists resisted the idea of American involvement and attacked U.S. troops, including the 24th and 25th Infantry regiments stationed there.  The 9th and 10th Cavalry were sent  as reinforcements.  Resistance finally collapsed with the capture of the nationalists leader.
+      &lt;br&gt;Mexico - The Pancho Villa Expedition (or Punitive Expedition) was an unsuccessful operation against the paramilitary forces of Mexican revolutionary Pancho Villa in retaliation for his attack on the town of Columbus, New Mexico.  The 10th Calvary mounted a highly successful charge against Villa's forces at Agua Caliente although after 9 months the US retreated to focus on larger stage of WW I.  Which is true?
+    </question>
+    <answer correct="false">
+      in preparation for the invasion of Cuba, the Buffalo Soldiers were posted to the US southeast for the first time
+    </answer>
+    <answer correct="false">
+      while garrisoned at the Presidio in CA, Captain Young and his 9th Calvary troops - before being dispatched to the Sequoia National Park - served as a special escort to President Roosevelt on his California tour
+    </answer>
+    <answer correct="false">
+      during the Punitive Expedition Major Young demonstrating exceptional leadership of the 10th Cavalry was promoted to Lieutenant Colonel and assigned as commander of Fort Huachuca, Arizona
+    </answer>
+    <answer correct="true">
+      all of the above
+    </answer>
+    <explanation>
+      The correct answer is d.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+<questionDetail topic="Contributions">
+  <question>
+    In May 1898, one month into the Spanish-American War, the U.S. Army Fifth Corps, with Theodore Roosevelts Rough Riders, landed in Cuba with the aim of marching to Santiago.  In the most integrated battle group of it’s time, the 9th and 10th Calvary and the 24th and 25th Infantry deployed with White regular army and volunteer regiments.  The success of the charge at the main Battle of San Juan Hill, along with success of a charge of nearby Kettle Hill and at the battle of El Caney led both to the defeat of the Spanish forces. The subsequent siege of the city led to the July 17 surrender of Santiago, ended the Spanish rule in Cuba. &lt;p&gt;The Buffalo Soldiers won high praise for their critical role in the success of battles at Santiago.  Theodore Roosevelt commented: “no one can tell whether it was the Rough Riders or the men of the 9th who came forward with the greater courage to offer their lives in the service of their country."  Which is true?
+  </question>
+  <answer correct="false">
+    Roosevelt continued to praise the “heroism and dedication to their duties” of the Buffalo Soldiers that was crucial to the success of that mission
+  </answer>
+  <answer correct="false">
+    San Juan Hill provided an opportunity for others to observe the Buffalo Soldiers “fighting spirt and bravery in the face of battle” that paved the way for combat roles in WW I and II in the regular army.
+  </answer>
+  <answer correct="false">
+    the Americans suffered fewer casualties than the Spaniards owing in part to superior tactics, discipline and weaponry
+  </answer>
+  <answer correct="false">
+    all of the above
+  </answer>
+  <answer correct="true">
+    none of the above
+  </answer>
+  <explanation>
+    The correct answer is e.  &lt;br&gt;Subsequently Roosevelt made disparaging statements about the Buffalo Soldiers.  While the Buffalo Soldiers were highly praised for there performance in the battles that didn’t persist and were often relegated to support roles in future engagements.  Ih the battle the American’s suffer twice as many casualties at the Spaniards.
+  </explanation>
+</questionDetail>
+//--------------------------------------------------------
+<questionDetail topic="Deactivation">
+  <question>
+    After WW I the Regular Army, including the Buffalo Soldier regiments, were under strength.  In the beginning of WW II the War Department determined that a shortage of personnel for service and supply operations behind battle lines should be alleviated by converting combat-trained Black soldiers to support roles.  In both world wars more Black volunteers saw action than combat-trained Black troops. In March 1944, the 2nd Cavalry Division which now included the 9th and 10th Calvary arrived in North Africa.  While there the entire Division was inactivated and converted to service units thus bringing the 85 year history of the Buffalo Soldiers Calvary regiments to an end. Which is true?
+  </question>
+  <answer correct="false">
+    the 24th Infantry regiment was inactivated in 1951 in Korea
+  </answer>
+  <answer correct="false">
+    the 25th Infantry regiment was inactivated at Camp Stoneman, California in 1946
+  </answer>
+  <answer correct="false">
+    the  end of segregation in the US Army began July 26, 1948, when President Harry S. Truman issued Executive Order 9981 declaring that "there shall be equality of treatment and opportunity for all persons in the armed services without regard to race, color, religion, or national origin."
+  </answer>
+  <answer correct="true">
+    all of the above
+  </answer>
+  <explanation>
+    The correct answer is d.
+  </explanation>
+</questionDetail>
+//--------------------------------------------------------
+<questionDetail topic="Legacy">
+  <question>
+    There is a rich legacy established by the hard work, sacrifice, dedication, and accomplishments of the men who served as Buffalo Soldiers from it’s inception in 1866 to the deactivation of the 9th and 10th calvary in 1944..  What does it mean to be a “Buffalo Soldier” today?
+  </question>
+  <answer correct="true">
+    Preserve and defend the legacy that was established at great sacrifice and look to advance the causes of honor and justice with equal dedication.
+
+    (Your thoughts here)
+  </answer>
+  <explanation>
+    The correct answer is what you make it.
+  </explanation>
+</questionDetail>
+//--------------------------------------------------------
+</buffaloSoldiers>
